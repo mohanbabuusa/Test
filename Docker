@@ -1,0 +1,7 @@
+Docker -v
+docker ps -a
+docker volume ls
+find / -name mohan
+docker run -dt --name mohan -p 8099:8080 -a 56000:50000 -v/opt/jenkins
+docker run -it --name mohan -v /ctnrdirname imagename /bin/bash
+doceker run -it --name mohan -v volumename:/data01 imagename /bin/bash
